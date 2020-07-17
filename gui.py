@@ -1,11 +1,10 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import os
-import PySimpleGUIQt as sg
+import PySimpleGUI as sg
 import ytdl_script as dl
 
-
-sg.theme('Light Green 2')  # please make your creations colorful
+sg.change_look_and_feel("LightGreen")
 
 url = 'url-input'
 folder = 'folder-input'
